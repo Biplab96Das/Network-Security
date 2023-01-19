@@ -1,6 +1,6 @@
 #In order to work with Crypto module run:"pip install pycryptodome"
 #if pip is not already installed then do the following:
-#run this three before istalling:1)"sudo apt-get update" 2)"sudo apt-get upgrade" 3)"sudo apt install python3-pip"
+#run this three before installing:1)"sudo apt-get update" 2)"sudo apt-get upgrade" 3)"sudo apt install python3-pip"
 #Now open terminal and run the Rsa message Encryption program "222cs2268_Q_1.py" using "python3 222cs2268_Q_1.py" write your message and boom!Magic.
 #Author : Biplab Das. Roll No : 222CS2268. DEPT.:CSE(IS)
 from Crypto.PublicKey import RSA
