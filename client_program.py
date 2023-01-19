@@ -15,7 +15,7 @@ print('Connection Established with the Server.')
 sock.send('Please send me the file'.encode())
 
 # Write File in binary
-# file = open('client-file.txt', 'wb')
+file = open('client-file.txt', 'wb')
 
 # Keep receiving data from the server
 line = sock.recv(1024)
@@ -25,7 +25,7 @@ while(line):
     line = sock.recv(1024)
 
 print('File has been received successfully.It contains following:')
-file = open("server-file.txt", "r")
+file = open("client-file.txt", "r")
 
 print(file.read())
 file.close()
